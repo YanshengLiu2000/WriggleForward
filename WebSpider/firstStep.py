@@ -60,7 +60,7 @@ def get_data(html_content):
         wind=element.find('p',{'class':'win'})
         wind_level=wind.find('i').string
         # print(wind_level)
-        wind_dir=wind.find_all('span',{'class':'SW'})
+        wind_dir=wind.find('em').find_all('span')
         for wd in wind_dir:
             # print(str(wd))
             search_obj=re.search(r"title=\"(.*?)\"", str(wd))
