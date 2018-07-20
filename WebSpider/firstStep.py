@@ -4,7 +4,10 @@ import re
 import socket
 import requests
 from bs4 import BeautifulSoup
-
+"""
+https://blog.csdn.net/Bo_wen_/article/details/50868339
+参考网站
+"""
 
 class Detecting(object):
     def __init__(self, func):
@@ -62,9 +65,13 @@ def get_data(html_content):
         # print(wind_level)
         wind_dir=wind.find('em').find_all('span')
         for wd in wind_dir:
-            # print(str(wd))
+            print(str(wd))
+            print('test:::::::::',wd['title'])
+            """
+            可以用soup['class']获得class的名字 like class='zhazha' soup['class']== 'zhazha'
+            """
             search_obj=re.search(r"title=\"(.*?)\"", str(wd))
-            print(search_obj.group(1))
+            # print(search_obj.group(1))
     return 0
 
 
@@ -73,7 +80,3 @@ if __name__ == '__main__':
     html_content = get_content(target)
     line_here()
     get_data(html_content)
-
-    # test='<span class="SW" title="西南风"></span>'
-    # search_obj = re.search(r"title=\"(.*?)\"", test)
-    # print(search_obj.group(1))
