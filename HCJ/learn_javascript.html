@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn JavaScript</title>
+</head>
+<body>
+<hr>
+============================================================================================================<br>
+<script>
+    document.write("<h1>This is a heading</h1>");
+    document.write("<p>This is a paragraph</p>");
+</script>
+============================================================================================================<br>
+<button type="button" onclick="alert('Welcome!')">点击这里</button>
+<hr>
+============================================================================================================<br>
+<p id="test1">This is the test 1 for javascript!</p>
+<script>
+    function testfunc1() {
+        x = document.getElementById('test1');
+        x.innerText = "Hello JavaScript!"
+    }
+</script>
+<button type="button" onclick="testfunc1()">Click to change content!</button>
+<hr>
+<img id="pic1" src="./static/testImage.jpg" width="200" height="200" onclick="tf2()"><br>
+<p>Click this pic!</p>
+<script>
+    function tf2() {
+        elem = document.getElementById("pic1");
+        if (elem.src.match("./static/testImage.jpg")) {
+            elem.src = "./static/testImage2.jpg";
+        }
+        else {
+            elem.src = "./static/testImage.jpg";
+        }
+    }
+</script>
+<hr>
+============================================================================================================<br>
+<h1>JS can change the style of html</h1>
+<p id="testp2">This is used to test the js!</p>
+<script>
+    function tf3() {
+        x = document.getElementById("testp2");
+        x.style.color = "yellow";
+    }
+</script>
+<button type="button" onclick="tf3()">Click to change the color!</button>
+============================================================================================================<br>
+<h1>Check if the input is number</h1>
+Number: <input id="it1" type="text">
+<button id="bt1" type="submit" onclick="tf4()">submit</button>
+<script>
+    function tf4() {
+        var x = document.getElementById("it1");
+        if (isNaN(x)) {
+            alert("Need number!");
+        }
+    }
+</script>
+============================================================================================================<br>
+<h1>Import outside functions!</h1>
+<script src="./static/myScript.js"></script>
+<p id="demo">This is used to test imported function!</p>
+<button type="button" onclick="tf5()">Click!</button>
+============================================================================================================<br>
+<p>我的第一个段落。</p>
+
+<button onclick="myFunction()">点击这里</button>
+
+<script>
+    function myFunction() {
+        document.write("<p>糟糕！文档消失了。<p>");
+    }
+</script>
+================<br>
+<h1>我的第一张网页</h1>
+
+<script>
+    document.write("<p>我的第一段 JavaScript</p>");
+</script>
+============================================================================================================<br>
+<p id="myp">This is a paragraph!</p>
+<div id="mydiv">This is a div!!!</div>
+<button id="ttbtn" type="button" onclick="tf6()">click!</button>
+<script>
+    function tf6() {
+        //this will commit this line!
+        /*
+        This will commit a lot of lines!
+         */
+        document.getElementById("myp").innerHTML = "zhazha!!!";
+        document.getElementById("mydiv").innerHTML = "ZHAZHA!!!!!!!!";
+    }
+</script>
+
+============================================================================================================<br>
+<script>
+    let x = 1;
+    var y = 2;
+    var z = x + y;
+    document.write(z);
+    var x = 6;
+    var x = "zzzz";
+    var y = 123e5;
+    var x = true;
+    var y = false;
+    var cars = [];
+    car[0] = "a";
+    car[1] = "b";
+    car[2] = "c";
+    var car=[1,2,3];
+    var book={first:1, second:2, third:3};
+    car=null
+    x=String()
+
+</script>
+============================================================================================================<br>
+<script>
+    var txt="Hello!"
+    document.write(txt.length);
+
+</script>
+
+<script src="./static/myScript.js"></script>
+<button onclick="js1()">click!!!!!!!!!</button><br>
+============================================================================================================<br>
+<button onclick="tf7('NAME', 'CEO')">Click this!</button>
+<script>
+    function tf7(name,job) {
+        alert("Welcome "+name+", the "+job+"!");
+    }
+</script>
+============================================================================================================<br>
+<script>
+    x=5+5;
+    document.write(x+"<br>");
+
+    x="5"+"5";
+    document.write(x+"<br>");
+
+    x=5+"5";
+    document.write(x+"<br>");
+
+    x="5"+5;
+    document.write(x+"<br>");
+</script>
+============================================================================================================<br>
+<script>
+    let time=1
+    if (time<10)
+    {
+        x="Good morning";
+    }
+    else if (time<20)
+    {
+        x="Good day";
+    }
+    else
+    {
+        x="Good evening";
+    }
+    document.write(x+"<br>");
+    var day=new Date().getDay();
+
+    switch (day)
+    {
+        case 0:
+            x="Today it's Sunday";
+            break;
+        case 1:
+            x="Today it's Monday";
+            break;
+        case 2:
+            x="Today it's Tuesday";
+            break;
+        case 3:
+            x="Today it's Wednesday";
+            break;
+        case 4:
+            x="Today it's Thursday";
+            break;
+        case 5:
+            x="Today it's Friday";
+            break;
+        case 6:
+            x="Today it's Saturday";
+            break;
+        default:// used to set defaut like else@if`` else if`````` else```````
+            x="Looking forward to the Weekend";
+    }
+    document.write(x+"<br>");
+
+</script>
+<br>
+============================================================================================================<br>
+<script>
+    cars=["BMW","Volvo","Saab","Ford"];
+    for (var i=0;i<cars.length;i++)
+    {
+    document.write(cars[i] + "<br>");
+    }
+
+    var person={fname:"John",lname:"Doe",age:25};
+
+    for (x in person)
+    {
+        txt=txt + person[x];
+    }
+    list:
+    {
+        document.write(cars[0] + "<br>");
+        document.write(cars[1] + "<br>");
+        document.write(cars[2] + "<br>");
+        break list;
+        document.write(cars[3] + "<br>");
+        document.write(cars[4] + "<br>");
+        document.write(cars[5] + "<br>");
+    }
+</script>
+
+
+
+</body>
+</html>
