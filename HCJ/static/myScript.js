@@ -12,3 +12,12 @@ function js1(){
     document.write(person.firstname + " is " +person.age+" years old!")
 }
 
+function js_1() {
+    mod=1;
+    alert(mod);
+}
+function multiply(m,n){
+    var total = m*n;
+    // document.write(total)
+    return total
+}
