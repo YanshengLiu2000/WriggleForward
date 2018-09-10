@@ -1,0 +1,10 @@
+.row{
+    background: #9fcdff;
+}
+.row.left{
+    background: #4e555b;
+}
+.row.navside{
+    background: green;
+    color: #1b1e21;
+}
