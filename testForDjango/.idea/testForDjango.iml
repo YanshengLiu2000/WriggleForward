@@ -27,6 +27,8 @@
         <option value="$MODULE_DIR$/testForDjango/templates" />
         <option value="$MODULE_DIR$/pages/templates" />
         <option value="$MODULE_DIR$/pages/templates/pages" />
+        <option value="$MODULE_DIR$/quotes/templates" />
+        <option value="$MODULE_DIR$/quotes/templates/quotes" />
       </list>
     </option>
   </component>
