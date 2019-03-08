@@ -1,0 +1,203 @@
+'''
+https://blog.csdn.net/qq_41797451/article/details/79717403
+https://github.com/taizilongxu/interview_python
+'''
+#!/usr/bin/python3
+============================================================
+Q: 什么是面向对象?
+    web:
+    ANS:高内聚低耦合, 继承封装多态可以实现.
+        高内聚:尽量自己保存数据
+        低耦合: 依赖其他对象
+        
+        继承:重用代码, 节省开发时间
+        封装:不外漏原理, 黑箱
+        多态: 同一操作作用于不同对象可以有不同的解释, 产生不同的执行效果.
+        
+END_Q
+
+Q:手写常用排序算法
+    web:
+    ANS:(⊙o⊙)…
+END_Q
+
+Q:is == 区别
+    web:http://www.cnblogs.com/CheeseZH/p/5260560.html
+    ANS:说这个之前, 先唠点别的. 在python中,对象包括三个基本要素, 分别是: id(身份表示),type(数据类型) 和 value(值).
+        == 是比较运算符用来判断value是否相等
+        is 是同一性运算符,用来比较id是否相同
+END_Q
+
+Q:说一下python3的装饰器
+    web:https://python3-cookbook.readthedocs.io/zh_CN/latest/c09/p05_define_decorator_with_user_adjustable_attributes.html
+    ANS:简单的说, 装饰器就是在不改变原来函数的情况下加强原来函数功能的函数或添加原函数属性
+        装饰器接收函数和其他常用参数作为参数.
+        装饰器的有很高的复用性.
+        一个函数可以有很多装饰器,装饰器的执行顺序为由近到远.
+        def check_check(input=None):
+    def decorate(func):
+        a= input if input else None
+        print('a= ',a)
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            print('*args: ',*args)
+            print('**kwargs: ',**kwargs)
+            func(*args, **kwargs)
+            return
+        return wrapper
+    return decorate
+    
+    def check1(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            print('This is check1!')
+            func(*args, **kwargs)
+            return
+        return wrapper
+  # @check_check(11)
+    @check1
+    def test(inp):
+        print('test',inp)
+
+    test('123')
+END_Q
+
+Q: @classmethod,@staticmethod,@property,区别
+    web:https://segmentfault.com/q/1010000004016898
+        
+    ANS:@staticmethod 是静态方法, 不需要创建实例, 也不会改变类属性
+        @classmethod 是类方法, 可以不创建实例, 跟所有实例共享类变量,类似全局变量(self那个叫实例变量).
+        @property 是把类的函数伪装成属性的装饰器, 必须返回东西, 调用的时候不需要传递参数,没有括号
+END_Q
+
+Q:Python的垃圾回收机制
+    web:https://sutune.me/2018/10/14/python-GC/
+        http://www.liaogx.com/python-memory-management-and-gc/
+    ANS:python采用的是引用计数机制为主，标记-清除和分代收集两种机制为辅的策略。
+        引用计数: 
+            增加引用计数的操作是,创建, 引用, 传参, 储存入容器
+            减少引用计数的操作是,对象名被显式销毁,对象名被赋予新的对象, 对象离开作用域,对象所在容器被销毁或从容器中删除
+        引用计数的缺点就是需要额外的空间维护引用计数以及无法解决循环引用的问题
+        分代回收:
+            建立在标记清除基础上的.以空间换时间, python将内存根据对象的存活时间分为不同的集合, 0,1,2三代(对应青,中,老).  它们是对应的三个链表, 回收频率随着存活时间的增大而减小.
+            新创建的对象分在0代, 当0代链表上的对象总数达到最大值后, 触发回收机制, 无法回收的对象放在1代, 以此类推.
+        标记清除:
+            基于追踪回收的技术实现的回收算法. 分为两个阶段:
+            标记阶段: 把所有的活动对象打上标记(沿着有向图可达的对象为活动对象,不可达的点为非活动对象)
+            清除阶段: 回收没有标记的非活动对象
+            本算法主要处理容器对象, 缺点是, 清除飞活动对象前必须顺序扫描整个堆内存.
+END_Q
+
+Q:单下划线变量(函数)和双下划线变量(函数) 是怎么
+    web:https://www.zhihu.com/question/19754941
+    ANS:单下划线表示私有变量或者内部函数, 只是约定.from Test import * 无法import _demo, 但import Test 可以
+        也有在后面的下划线, 表示和python关键字区分开.
+        双下划线开头__表示私有成员只允许类本身访问,子类也不行, class Test 里面__demo=0, 那么调用__demo需要用_Test__demo.这是为了避免与子类中的名称冲突
+        __XX__是魔术方法
+END_Q
+Q: *args 和**kwargs 是什么?
+    web:https://github.com/taizilongxu/interview_python
+    ANS:*args可以传递任意参数,传过来后是tuple; **kwargs 可以传递任意键值对,传过来是字典.两者在同一函数中可以混用,但*args必须在前面
+END_Q
+Q:什么是python的迭代器
+    web:https://python3-cookbook.readthedocs.io/zh_CN/latest/c04/p02_delegating_iteration.html
+    ANS:一个类,如果可以实现__iter__方法或者__next__方法, 这个类基本上就是一个迭代器.迭代器不可逆
+END_Q
+Q:什么是python的生成器
+    web:
+    ANS:就是yield, 初始化方法后执行到yield后暂停, 之后如果再次调用方法(next方法), 会继续执行并返回yield之后的值. 
+END_Q
+
+Q:python魔术方法
+    web:https://segmentfault.com/a/1190000007256392
+    ANS:有以下几种常用的: __new__,__init__,__call__,__str__,__repr__,__enter__,__exit__
+        __new__ 在实例化类的时候开辟内存空间,可以用于设计工厂模式
+        __init__ 赋予实例属性
+        __call__ 让实例可以当函数用,可以像用函数一样用实例
+        __str__ 返回字符串, 如果没有, 调用__repr__,__str__为了可阅读的字符串,面向用户
+        __repr__ 面向程序员,一般返回详细信息
+        __enter__ & __exit__ 为了上下文控制语句with, 只要有__enter__,exit的实例都可以用上下文管理器.
+        __add__,__sub__,__mul__,之类的四则运算, 设置算数运算符
+        __lt__,__gt__,__le__,__ge__,__eq__比较运算符
+        __len__返回长度
+        __getattr__,__setattr__用户试图获取不存在属性时的行为, 用户添加属性赋值.
+        __iter__ 返回迭代器
+        
+END_Q
+
+Q:上下文管理器with
+    web:
+    ANS:with open('demo.txt') as f: 其实就是对象实现了__enter__和__exit__魔术方法.with完成后或者发生异常后会自动释放资源. 这里open() as f是上下文表达式 返回上下文管理器. f 里面是__enter__的返回值.
+    比如说在ORM中, 数据库相关操作里. with可以连接数据库以及结束后释放连接. 其中的变量只存在于with作用域中.
+END_Q
+
+Q:python装饰器
+    web:https://python3-cookbook.readthedocs.io/zh_CN/latest/c09/p01_put_wrapper_around_function.html
+    ANS:装饰器的本质就是一个接收函数作为参数的函数. 用@wraps可以保留原始函数的元数据. __name__,__doc__之类的
+        def record_time(func):
+        @wraps(func)
+        def wrapper(*args,**kwargs):
+            start=time.time()
+            result=func(args,**kwargs)
+            total=time.time()-start
+            print(func.__name__, total)
+            return result
+        return wrapper
+        但不是所有的装饰器都是用了@wraps, 比如说@classmethod和@staticmethod就没有使用, 它们把原始数据储存在__func__中.
+END_Q
+
+Q:聊一下函数式编程
+    web:
+    ANS:函数式编程是一种抽象度很高的编程范式, 对于函数式编程的函数来说,只要输入是固定的, 输出就是固定的. 除此之外, 函数式编程允许把函数本身作为参数传入到另一个函数中, 也可以返回一个函数.
+    在python3 中常用的函数比如说abs(), sum(),sorted(), map(), filter()
+    函数式编程一般可以增加代码的简洁读和可读性.
+END_Q
+
+Q:聊一下map(),filter(), reduce()
+    web:
+    ANS:map(func, iterable) filter(fuc,iterable),reduce(func,iterable)
+        map是把func作用在iterable的每一个元素中, filter 就是返回iterable里面符合规定的元素,reduce就是func作用在当前元素和之前func的结果上
+END_Q
+Q:布隆滤器
+    web:https://www.jianshu.com/p/2104d11ee0a2
+    ANS:布隆过滤器是用bit列表来存储信息的. 它并不存储信息的value, 而是存储k个hash(key)值,
+    因此布隆过滤器适用于处理海量数据. 在检索海量数据中是否存在特定数据的时候, 用k个hash函数处理, 然后对应查找相应的bit位, 如果都是1的话, 就大概率存在, 如果不能匹配的话就一定不存在. hash函数越多, 可能存在的正确率越大, 但性能越不好. (默认)布隆过滤器不支持删除操作.但如果bit列表支持计数bit位的话, 删除也可以. 就是不只记录0和1,而且记录1了多少次.布隆过滤器没有冲突检查, 所以hash冲突是大概率存在的.
+    布隆过滤器可以用来减少磁盘IO或网络请求. 因为一个值如果不存在的话, 没有必要浪费性能查询.
+END_Q
+
+Q:hash表的实现
+    web:https://blog.csdn.net/P_Doraemon/article/details/80353579
+        https://zhuanlan.zhihu.com/p/33496977
+    ANS:数组+链表
+        但一般不一定,对应哈希冲突的话, 开放寻址法(发生冲突后继续寻找下一块未被占用的地址),再散列函数法,链地址法.
+        python3 中应用开放寻址法
+            优点: 序列更容易序列化操作, 如果记录总数可以预知, 可以创建完美哈希函数
+            缺点:储存记录条数不能超过桶数组长度, 否则需要扩容, 因此导致某次操作时间成本很大.
+                当记录本身尺寸很大时,桶数组长度也会很大,空槽多,浪费内存
+                删除数据相对麻烦.不可直接删除(可能会有hash冲突), 需要标记.
+                
+END_Q
+Q: Python3 中字典的实现?
+    web:http://python.jobbole.com/85040/
+    ANS:字典是一个hash表.
+END_Q
+
+=========================================================================================================================
+手撕代码 这个主要是剑指offer，leetcode的手撕题不是很多。剑指offer上的频率非常高。那个跳台阶问题我遇到了n多次，二叉树的各种遍历(后序最重要)，二叉树的其他各种操作（公共祖先，深度，宽度，和为某个值的路径等），动态规划(最长递增子序列，和最大的子数组，最长公共子序列等，看看背包九讲)，堆排，快排(递归非递归)等，leetcode你可以不刷，但是剑指offer一定得刷，滚瓜烂熟。
+
+网络 理论部分看《TCP/IP卷一》，tcp部分是重中之重，tcp头部要能画出来，每个标志位的意思，滑动窗口，拥塞控制过程等要熟。tcp状态迁移图要能画出来。实战就要看神书《UNIX网络编程》绝对经典之作，其实也不用看完，那么厚呢，主要就是前11章。
+
+《高性能MySql》《redis设计与实现》
+
+ 设计模式
+
+设计模式我没有看过啥书，基本上都在看别人博客。烂大街的单例模式天天问怎么实现线程安全？怎么提高效率。
+python的垃圾回收机制
+https://sutune.me/2018/10/14/python-GC/
+
+作者：java架构交流
+链接：https://zhuanlan.zhihu.com/p/57629603
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+数据库MySQL 有哪些存储引擎啊？都有什么区别？Float、Decimal 存储金额的区别？Datetime、Timestamp 存储时间的区别？Char、Varchar、Varbinary 存储字符的区别？对比一下B+树索引和 Hash索引？MySQL索引类型有？如何管理 MySQL索引？对Explain参数及重要参数的理解？索引利弊是什么及索引分类？聚簇索引和非聚簇索引的区别？B+tree 如何进行优化？索引遵循哪些原则？索引与锁有什么关系？还有什么其他的索引类型，各自索引有哪些优缺点？谈谈对Innodb事务的理解？说说数据库事务特点及潜在问题？什么是MySQL隔离级别？有多少种事务失效的场景，如何解决？一致性非锁定读和一致性锁定读是什么？Innodb如何解决幻读？讲讲Innodb行锁？死锁及监控是什么？自增长与锁 ，锁的算法，锁问题，锁升级是什么？乐观锁的线程如何做失败补偿？高并发场景（领红包）如何防止死锁，保证数据一致性？谈谈MySQL的锁并发？查询优化的基本思路是什么？说说MySQL读写分离、分库分表？表结构对性能有什么影响?浅谈索引优化？说说Sql优化的几点原则？MySQL表设计及规范？说说MySQL几种存储引擎应用场景？MySQL常用优化方式有哪些？MySQL常用监控？MySQL瓶颈分析？缓存redis数据结构有哪些？Redis缓存穿透，缓存雪崩？如何使用Redis来实现分布式锁？Redis的并发竞争问题如何解决？Redis持久化的几种方式，优缺点是什么，怎么实现的？Redis的缓存失效策略？Redis集群，高可用，原理？Redis缓存分片？Redis的数据淘汰策略？redis队列应用场景？分布式使用场景（储存session）？网络编程TCP建立连接和断开连接的过程？HTTP协议的交互流程，HTTP和HTTPS的差异，SSL的交互流程？TCP的滑动窗口协议有什么用？HTTP协议都有哪些方法？Socket交互的基本流程？讲讲tcp协议（建连过程，慢启动，滑动窗口，七层模型）？webservice协议（wsdl/soap格式，与restt办议的区别）？说说Netty线程模型，什么是零拷贝？TCP三次握手、四次挥手？DNS解析过程？TCP如何保证数据的可靠传输的？

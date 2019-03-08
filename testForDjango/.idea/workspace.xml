@@ -2,26 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f288f6f1-9eda-429d-8e61-ca22fca62d8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/quotes/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/templates/quotes/quote.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/templates/quotes/quote_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/templates/quotes/quote_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BasicPython/.ipynb_checkpoints/Asynochronous-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicPython/.ipynb_checkpoints/Asynochronous-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BasicPython/.ipynb_checkpoints/Sorting Methods-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicPython/.ipynb_checkpoints/Sorting Methods-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BasicPython/Asynochronous.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicPython/Asynochronous.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BasicPython/Sorting Methods.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicPython/Sorting Methods.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BasicPython/Thread&amp;Process.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Leetcode/Tree_easy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Leetcode/Tree_easy.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Leetcode/Tree_medium.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Leetcode/Tree_medium.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/testForDjango.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/testForDjango.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leetcode/Backtracking#ac.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Leetcode/Backtracking#ac.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MFDW2_1-source (1).zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nosense.py" beforeDir="false" afterPath="$PROJECT_DIR$/nosense.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/quotes/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testForDjango/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/testForDjango/static/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testForDjango/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/testForDjango/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testForDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/testForDjango/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,10 +19,14 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/testForDjango$threadings.coverage" NAME="threadings Coverage Results" MODIFIED="1543629877682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/testForDjango$gc.coverage" NAME="gc Coverage Results" MODIFIED="1549951774321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/testForDjango$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1551610839920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/testForDjango$test111.coverage" NAME="test111 Coverage Results" MODIFIED="1549067831636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/testForDjango$manage.coverage" NAME="manage Coverage Results" MODIFIED="1542598800410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/testForDjango$test222.coverage" NAME="test222 Coverage Results" MODIFIED="1551834263876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/testForDjango$views.coverage" NAME="views Coverage Results" MODIFIED="1542772606836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" />
     <SUITE FILE_PATH="coverage/testForDjango$nosense.coverage" NAME="nosense Coverage Results" MODIFIED="1542690910921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" />
-    <SUITE FILE_PATH="coverage/testForDjango$nosense__1_.coverage" NAME="nosense (1) Coverage Results" MODIFIED="1543896434519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/testForDjango$nosense__1_.coverage" NAME="nosense (1) Coverage Results" MODIFIED="1548729201332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -59,117 +51,131 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quotes/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quotes/templates/quotes/quote_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nosense.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="37" lean-forward="true" selection-end-line="12" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threadings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="55" selection-start-line="55" selection-start-column="2" selection-end-line="68" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testForDjango/static/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2227">
-              <caret line="131" selection-start-line="131" selection-end-line="131" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MFDW2_1-source (1)/CH12/mfdw_root/mfdw_site/static/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="23" selection-end-line="131" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="47" column="78" selection-start-line="47" selection-start-column="78" selection-end-line="47" selection-end-column="78" />
-              <folding>
-                <element signature="e#39#93#0" expanded="true" />
-                <marker date="1542858112548" expanded="true" signature="299:306" ph="..." />
-                <marker date="1542858112548" expanded="true" signature="486:491" ph="..." />
-                <marker date="1542858112548" expanded="true" signature="880:1600" ph="..." />
-                <marker date="1542858112548" expanded="true" signature="1625:1632" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quotes/templates/quotes/quote_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quotes/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quotes/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-              <folding>
-                <element signature="e#1#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/nosense.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1513">
+                  <caret line="89" selection-start-line="89" selection-end-line="89" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gc.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1377">
+                  <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test3.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test111.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="349">
+                  <caret line="86" column="37" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="714">
+                  <caret line="47" column="78" selection-start-line="47" selection-start-column="78" selection-end-line="47" selection-end-column="78" />
+                  <folding>
+                    <element signature="e#39#93#0" expanded="true" />
+                    <marker date="1542858112548" expanded="true" signature="299:306" ph="..." />
+                    <marker date="1542858112548" expanded="true" signature="486:491" ph="..." />
+                    <marker date="1542858112548" expanded="true" signature="880:1600" ph="..." />
+                    <marker date="1542858112548" expanded="true" signature="1625:1632" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/quotes/templates/quotes/quote_list.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                  <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/quotes/forms.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#0#34#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/quotes/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+                  <folding>
+                    <element signature="e#1#45#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test222.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="561">
+                  <caret line="55" selection-start-line="55" selection-end-line="55" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/threadings.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="901">
+                  <caret line="55" selection-start-line="55" selection-start-column="2" selection-end-line="68" selection-end-column="21" />
+                  <folding>
+                    <element signature="e#0#16#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test222.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="476">
+                  <caret line="157" column="44" lean-forward="true" selection-start-line="157" selection-start-column="44" selection-end-line="157" selection-end-column="44" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -223,13 +229,18 @@
         <option value="$PROJECT_DIR$/quotes/templates/quotes/quote_list.html" />
         <option value="$PROJECT_DIR$/threadings.py" />
         <option value="$PROJECT_DIR$/nosense.py" />
+        <option value="$PROJECT_DIR$/gc.py" />
+        <option value="$PROJECT_DIR$/test3.py" />
+        <option value="$PROJECT_DIR$/test111.py" />
+        <option value="$PROJECT_DIR$/test222.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1412" />
-    <option name="width" value="1336" />
-    <option name="height" value="1836" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="424" />
+    <option name="y" value="-8" />
+    <option name="width" value="943" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -237,7 +248,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,39 +255,11 @@
               <item name="testForDjango" type="b2602c69:ProjectViewProjectNode" />
               <item name="testForDjango" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="testForDjango" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testForDjango" type="462c0819:PsiDirectoryNode" />
-              <item name="quotes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testForDjango" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testForDjango" type="462c0819:PsiDirectoryNode" />
-              <item name="quotes" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testForDjango" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testForDjango" type="462c0819:PsiDirectoryNode" />
-              <item name="quotes" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="quotes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testForDjango" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testForDjango" type="462c0819:PsiDirectoryNode" />
-              <item name="testForDjango" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testForDjango" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testForDjango" type="462c0819:PsiDirectoryNode" />
-              <item name="testForDjango" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,7 +268,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -300,8 +282,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.nosense (1)">
-    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test222">
+    <configuration name="gc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="testForDjango" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -314,7 +296,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -345,29 +327,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="nosense" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="testForDjango" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pages/nosense.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="threadings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test111" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="testForDjango" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -380,7 +340,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threadings.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test111.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -389,7 +349,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test222" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="testForDjango" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -397,12 +357,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pages/views.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test222.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="testForDjango" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -437,19 +419,19 @@
     </configuration>
     <list>
       <item itemvalue="Django server.testForDjango" />
-      <item itemvalue="Python.manage" />
+      <item itemvalue="Python.gc" />
       <item itemvalue="Python.nosense (1)" />
-      <item itemvalue="Python.nosense" />
-      <item itemvalue="Python.threadings" />
-      <item itemvalue="Python.views" />
+      <item itemvalue="Python.test111" />
+      <item itemvalue="Python.test222" />
+      <item itemvalue="Python.test3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test222" />
+        <item itemvalue="Python.test3" />
+        <item itemvalue="Python.gc" />
+        <item itemvalue="Python.test111" />
         <item itemvalue="Python.nosense (1)" />
-        <item itemvalue="Python.threadings" />
-        <item itemvalue="Python.views" />
-        <item itemvalue="Python.nosense" />
-        <item itemvalue="Python.manage" />
       </list>
     </recent_temporary>
   </component>
@@ -469,6 +451,43 @@
       <workItem from="1543628748613" duration="9732000" />
       <workItem from="1543793384189" duration="1609000" />
       <workItem from="1543795254113" duration="19591000" />
+      <workItem from="1544067054378" duration="2374000" />
+      <workItem from="1544495233995" duration="610000" />
+      <workItem from="1544496195279" duration="3712000" />
+      <workItem from="1546644301057" duration="152000" />
+      <workItem from="1548152806945" duration="602000" />
+      <workItem from="1548153729231" duration="1792000" />
+      <workItem from="1548217253919" duration="13413000" />
+      <workItem from="1548403621149" duration="3547000" />
+      <workItem from="1548482431789" duration="2118000" />
+      <workItem from="1548637518847" duration="54939000" />
+      <workItem from="1549711294508" duration="3311000" />
+      <workItem from="1549762580522" duration="9267000" />
+      <workItem from="1549940500352" duration="3321000" />
+      <workItem from="1550019461072" duration="2140000" />
+      <workItem from="1550106808832" duration="338000" />
+      <workItem from="1550122680826" duration="4568000" />
+      <workItem from="1550192854065" duration="1594000" />
+      <workItem from="1550277368246" duration="1562000" />
+      <workItem from="1550367763996" duration="1522000" />
+      <workItem from="1550455817698" duration="3453000" />
+      <workItem from="1550488175907" duration="2421000" />
+      <workItem from="1550537874727" duration="1162000" />
+      <workItem from="1550623681489" duration="754000" />
+      <workItem from="1551055040975" duration="2362000" />
+      <workItem from="1551068974364" duration="707000" />
+      <workItem from="1551141910624" duration="4360000" />
+      <workItem from="1551146590249" duration="4942000" />
+      <workItem from="1551227733488" duration="681000" />
+      <workItem from="1551314855999" duration="1936000" />
+      <workItem from="1551400841211" duration="599000" />
+      <workItem from="1551416679335" duration="1311000" />
+      <workItem from="1551488802592" duration="1206000" />
+      <workItem from="1551585254931" duration="1229000" />
+      <workItem from="1551609197579" duration="1499000" />
+      <workItem from="1551672892781" duration="2687000" />
+      <workItem from="1551746582865" duration="1857000" />
+      <workItem from="1551833559161" duration="707000" />
     </task>
     <task id="LOCAL-00001" summary="keep moving to chapter 11">
       <created>1542956902479</created>
@@ -481,7 +500,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67117000" />
+    <option name="totallyTimeSpent" value="211872000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -493,22 +512,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="807" y="0" width="763" height="1049" extended-state="0" />
+    <frame x="59" y="-8" width="1869" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.29639518" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.078496404" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.26524824" />
       <window_info anchor="bottom" id="Database Changes" order="0" sideWeight="0.4992908" weight="0.3293348" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.251634" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.25157234" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.45794392" side_tool="true" weight="0.25638297" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="4" sideWeight="0.58014184" weight="0.32752994" />
+      <window_info anchor="bottom" id="Python Console" order="4" sideWeight="0.58014184" weight="0.32704404" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32824427" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.5420561" weight="0.25925925" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.34640524" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.5420561" weight="0.23364486" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.34102833" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32897604" />
@@ -518,29 +537,6 @@
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.29639518" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="0" sideWeight="0.4992908" weight="0.3293348" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.251634" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.45794392" side_tool="true" weight="0.25638297" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="4" sideWeight="0.58014184" weight="0.32752994" />
-      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32824427" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.5420561" weight="0.25638297" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.34702703" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Database" order="0" weight="0.32907802" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="SciView" order="2" weight="0.32907802" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -548,6 +544,32 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="keep moving to chapter 11" />
     <option name="LAST_COMMIT_MESSAGE" value="keep moving to chapter 11" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nosense.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nosense.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nosense.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nosense.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/manage.py">
@@ -744,16 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threadings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="55" selection-start-line="55" selection-start-column="2" selection-end-line="68" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testForDjango/static/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2227">
@@ -765,6 +777,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="23" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nosense.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -809,10 +842,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nosense.py">
+    <entry file="file://$PROJECT_DIR$/threadings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="37" lean-forward="true" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="901">
+          <caret line="55" selection-start-line="55" selection-start-column="2" selection-end-line="68" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test111.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="86" column="37" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test222.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="157" column="44" lean-forward="true" selection-start-line="157" selection-start-column="44" selection-end-line="157" selection-end-column="44" />
         </state>
       </provider>
     </entry>
