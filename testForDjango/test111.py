@@ -5,6 +5,7 @@ def bubbleSort(input):
             if L[i]>L[j]:
                 L[i],L[j]=L[j],L[i]
     return L
+
 def selectSort(input):
     L=input[:]
     for i in range(len(L)):
@@ -14,6 +15,7 @@ def selectSort(input):
                 minIndex=j
         L[minIndex],L[i]=L[i],L[minIndex]
     return L
+
 def insertSort(input):
     L=input[:]
     res=[0]# 这里需要注意一下, 为什么是0呢, 因为如果res这里是L[0]的话, 进入j循环的第一个元素会报错.
@@ -23,6 +25,7 @@ def insertSort(input):
                 break
         res.insert(j,L[i])
     return res[:-1]
+
 def poilSort(L):
     book=[0 for i in range(101)]
     for i in L:
@@ -38,7 +41,7 @@ def quickSort(input):
     最好的时间复杂度和平均时间复杂度是nlogn,无序状态
     有序状数组,最坏时间复杂度o(n**2)
     因为每次都只能移动一个元素
-    """"
+    """
     L=input[:]
     left=0
     right=len(L)-1
@@ -88,6 +91,16 @@ def _merge(leftList, rightList):
     return res
 
 def heapSort(input):
+    """
+    heapAdjust函数时间复杂度是O(logN)
+    建堆过程时间复杂度是O(N)
+    具体证明:
+    https://blog.csdn.net/qq_34228570/article/details/80024306
+    https://www.zhihu.com/question/20729324
+    之后排序重建堆的时候:
+    每次建堆时间复杂度之和为O(log(N!))==O(Nlog(N))
+
+    """
     L=[0]+input[:]
     firstSortNode=len(input)//2
     for i in range(firstSortNode,0,-1):

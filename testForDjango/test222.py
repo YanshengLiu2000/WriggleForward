@@ -29,18 +29,18 @@ def _qs(l,left,right):
 
 def mergeSort(input):
     l=input
-    if len(l)<=1:
+    if len(input)<=1:
         return l
-    mid=len(l)//2
+    mid=len(input)//2
     left=mergeSort(l[:mid])
     right=mergeSort(l[mid:])
-    return _sm(left,right)
+    return _ms(left,right)
 
-def _sm(left,right):
-    l,r=0,0
+def _ms(left,right):
     res=[]
+    l=r=0
     while l<len(left) and r<len(right):
-        if left[l]<right[r]:
+        if left[l]<=right[r]:
             res.append(left[l])
             l+=1
         else:
@@ -52,7 +52,6 @@ def _sm(left,right):
         res+=right[r:]
     return res
 
-
 def heapSort(input):
     l=[0]+input
     firstRootIndex=len(input)//2
@@ -60,14 +59,13 @@ def heapSort(input):
         heapAdjust(l,i,len(l)-1)
 
     for i in range(len(l)-1,0,-1):
-        l[i],l[1]=l[1],l[i]
+        l[1],l[i]=l[i],l[1]
         heapAdjust(l,1,i-1)
     return l[1:]
 
 def heapAdjust(l,head,tail):
     root=l[head]
     child=head*2
-
     while child<=tail:
         if child<tail and l[child]<l[child+1]:
             child+=1
@@ -83,9 +81,9 @@ def shellSort(input):
     l=input
     step=len(l)//2
     while step>0:
-        for  i in range(step,len(l)):
+        for i in range(step,len(l)):
             while i>=step and l[i-step]>l[i]:
-                l[i],l[i-step]=l[i-step],l[i]
+                l[i-step],l[i]=l[i],l[i-step]
                 i-=step
         step//=2
     return l
@@ -101,8 +99,9 @@ def check_answer(sortFunc):
             print('Pass #{}__{}'.format(i,a))
         else:
             print('False to pass:')
-            print('a=  ',a)
-            print('res=',sortFunc(a))
+            print('a=      ',a)
+            print('ans=    ',sorted(a))
+            print('ur res= ',sortFunc(a))
             all_correct=False
             break
     if all_correct:
@@ -165,10 +164,10 @@ def check_answer(sortFunc):
 #     return wrapper
 if __name__=='__main__':
 
-    check_answer(quickSort)
+    # check_answer(quickSort)
     # check_answer(mergeSort)
     # check_answer(heapSort)
-    # check_answer(shellSort)
+    check_answer(shellSort)
     # shellSort([8,9,1,7,2,3,5,4,6,0])
     # a = [random.randint(0, 100) for _ in range(20)]
     # t1=heapSort(a)
